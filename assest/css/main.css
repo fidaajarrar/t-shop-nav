@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*public styles*/
+
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 1000px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 0px 1.64744px 8.2372px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px 0px;
+}
+
+/* public end*/
+
+.logo {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #101928;
+}
+
+nav ul li .home {
+  color: #101928;
+  font-weight: 700;
+}
+
+.auth {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.auth a {
+  padding: 5.354px 30px;
+  border-radius: 9.119px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.auth .login {
+  color: #545be8;
+  border: 0.412px solid #545be8;
+}
+
+.auth .register {
+  background-color: #545be8;
+  color: white;
+}
